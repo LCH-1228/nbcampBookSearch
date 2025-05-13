@@ -7,12 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B0A0CD42DD0D24100886E99 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CD32DD0D24100886E99 /* RxCocoa */; };
-		9B0A0CD62DD0D24100886E99 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CD52DD0D24100886E99 /* RxSwift */; };
-		9B0A0CD92DD0D24E00886E99 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CD82DD0D24E00886E99 /* SnapKit */; };
-		9B0A0CDC2DD0D25B00886E99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CDB2DD0D25B00886E99 /* Alamofire */; };
-		9B0A0CDF2DD0D27D00886E99 /* Then in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CDE2DD0D27D00886E99 /* Then */; };
-		9B0A0CE22DD0D28A00886E99 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 9B0A0CE12DD0D28A00886E99 /* Kingfisher */; };
+		9BF4C10C2DD3880A0021777A /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 9BF4C10B2DD3880A0021777A /* RxMoya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,12 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9B0A0CE22DD0D28A00886E99 /* Kingfisher in Frameworks */,
-				9B0A0CDF2DD0D27D00886E99 /* Then in Frameworks */,
-				9B0A0CD92DD0D24E00886E99 /* SnapKit in Frameworks */,
-				9B0A0CDC2DD0D25B00886E99 /* Alamofire in Frameworks */,
-				9B0A0CD62DD0D24100886E99 /* RxSwift in Frameworks */,
-				9B0A0CD42DD0D24100886E99 /* RxCocoa in Frameworks */,
+				9BF4C10C2DD3880A0021777A /* RxMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,12 +83,7 @@
 			);
 			name = nbcampBookSearch;
 			packageProductDependencies = (
-				9B0A0CD32DD0D24100886E99 /* RxCocoa */,
-				9B0A0CD52DD0D24100886E99 /* RxSwift */,
-				9B0A0CD82DD0D24E00886E99 /* SnapKit */,
-				9B0A0CDB2DD0D25B00886E99 /* Alamofire */,
-				9B0A0CDE2DD0D27D00886E99 /* Then */,
-				9B0A0CE12DD0D28A00886E99 /* Kingfisher */,
+				9BF4C10B2DD3880A0021777A /* RxMoya */,
 			);
 			productName = nbcampBookSearch;
 			productReference = 9B0A0CB22DD0CB3C00886E99 /* nbcampBookSearch.app */;
@@ -129,11 +114,7 @@
 			mainGroup = 9B0A0CA92DD0CB3C00886E99;
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
-				9B0A0CD22DD0D24100886E99 /* XCRemoteSwiftPackageReference "RxSwift" */,
-				9B0A0CD72DD0D24E00886E99 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				9B0A0CDA2DD0D25B00886E99 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				9B0A0CDD2DD0D27D00886E99 /* XCRemoteSwiftPackageReference "Then" */,
-				9B0A0CE02DD0D28A00886E99 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				9BF4C10A2DD3880A0021777A /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9B0A0CB32DD0CB3C00886E99 /* Products */;
@@ -367,78 +348,21 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		9B0A0CD22DD0D24100886E99 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+		9BF4C10A2DD3880A0021777A /* XCRemoteSwiftPackageReference "Moya" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			repositoryURL = "https://github.com/Moya/Moya.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 6.9.0;
-			};
-		};
-		9B0A0CD72DD0D24E00886E99 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-		9B0A0CDA2DD0D25B00886E99 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		9B0A0CDD2DD0D27D00886E99 /* XCRemoteSwiftPackageReference "Then" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/devxoul/Then.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
-		9B0A0CE02DD0D28A00886E99 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 8.3.2;
+				minimumVersion = 15.0.3;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		9B0A0CD32DD0D24100886E99 /* RxCocoa */ = {
+		9BF4C10B2DD3880A0021777A /* RxMoya */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CD22DD0D24100886E99 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		9B0A0CD52DD0D24100886E99 /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CD22DD0D24100886E99 /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		9B0A0CD82DD0D24E00886E99 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CD72DD0D24E00886E99 /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		9B0A0CDB2DD0D25B00886E99 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CDA2DD0D25B00886E99 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		9B0A0CDE2DD0D27D00886E99 /* Then */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CDD2DD0D27D00886E99 /* XCRemoteSwiftPackageReference "Then" */;
-			productName = Then;
-		};
-		9B0A0CE12DD0D28A00886E99 /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 9B0A0CE02DD0D28A00886E99 /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
+			package = 9BF4C10A2DD3880A0021777A /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
